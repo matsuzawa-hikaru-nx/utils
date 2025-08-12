@@ -1,0 +1,17 @@
+# Visual Studio Code の設定ファイル
+.vs/
+*.db
+*.suo
+*.user
+*.cache
+*.vsidx
+
+# 認証情報
+\GoogleDrive_Downloader\Outh\*
+
+# すべての .env を無視
+**/.env
+# ylab/*
+*.exe
+*.pdf
+*.json
