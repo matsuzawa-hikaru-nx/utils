@@ -13,7 +13,8 @@ from googleapiclient.errors import HttpError  # 追加
 
 # ===== ここを設定 =====
 # 保存先ディレクトリ
-DEST = r"C:\Users\hikar\Desktop\検索除外フォルダ\EDR回避-評価用"
+# DEST = r"C:\Users\hikar\Desktop\検索除外フォルダ\EDR回避-評価用"
+DEST = r"./Downloaded"  # 例: ./Downloaded
 # DEST = r"./Downloaded"
 
 # ダウンロードするフォルダのURL
@@ -26,7 +27,7 @@ DEST = r"C:\Users\hikar\Desktop\検索除外フォルダ\EDR回避-評価用"
 # https://drive.google.com/drive/folders/1iDxRSkdG8WHE_8AdegBdCfODUsgpUJss?usp=drive_link
 
 # 13:00 - 13:00
-URL = "https://drive.google.com/drive/folders/1iDxRSkdG8WHE_8AdegBdCfODUsgpUJss?usp=drive_link"
+URL = "https://drive.google.com/drive/folders/1OEfYuzHjdMqLtUm5eAGPFCX7fv53xtZB?usp=drive_link"
 # ====================
 
 # Google Drive 読み取り専用スコープ
